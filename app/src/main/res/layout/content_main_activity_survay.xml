@@ -244,7 +244,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:id="@+id/activityLayout">
+            android:id="@+id/activityLayout"
+            android:visibility="visible">
 
             <TextView
                 android:text="@string/lvl_activity"
