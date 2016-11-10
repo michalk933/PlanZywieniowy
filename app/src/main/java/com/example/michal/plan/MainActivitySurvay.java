@@ -54,15 +54,9 @@ public class MainActivitySurvay extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(countLayout <= 4 && flag == true){
+
                     flipper.showNext();
-                }else{
-                    Toast.makeText(getApplicationContext(), "Create diet", Toast.LENGTH_SHORT).show();
-                }
-                countLayout++;
 
-
-                flag = false;
             }
         });
     }
